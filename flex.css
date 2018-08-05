@@ -1,0 +1,48 @@
+@media screen and (max-width: 700px) {
+    .row, .navbar {   
+        flex-direction: column;
+    }
+}
+
+.header{
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    justify-content: center;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.containerm{
+    display: flex;
+
+}
+
+.containerm div{
+    border:2px #ccc solid;
+    padding: 10px;
+}
+
+.lside{
+    flex: 0.5;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.main{
+    flex: 2;
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+}
+
+.rside{
+    flex: 0.5;
+    font-family: 'Courier New', Courier, monospace;
+
+}
+
+.image {
+    background-color: #aaa;
+    width: 100%;
+    padding: 20px;
+}
