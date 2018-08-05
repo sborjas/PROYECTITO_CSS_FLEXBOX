@@ -1,5 +1,5 @@
 @media screen and (max-width: 700px) {
-    .row, .navbar {   
+    .image {   
         flex-direction: column;
     }
 }
@@ -45,4 +45,23 @@
     background-color: #aaa;
     width: 100%;
     padding: 20px;
+}
+/*COMIENZA LA SEGUNDA PARTE ===================================== */
+
+.containerm2{
+    display: flex;
+
+}
+.lside2{
+    flex: 10px;
+    border:2px #ccc solid;
+    padding: 10px; 
+
+}
+
+.navbar{
+    flex: 66%;
+    border:2px #ccc solid;
+    padding: 10px;
+
 }
