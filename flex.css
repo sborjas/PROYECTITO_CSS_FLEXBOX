@@ -86,7 +86,7 @@
     font-family: 'Courier New', Courier, monospace;
     border:2px #ccc solid;
     padding: 10px;
-    background-color: darkslategrey;
+    background-color: rgb(86, 214, 214);
 
 }
 
@@ -115,4 +115,10 @@
     padding: 10px;
     background-color: crimson;
 
+}
+
+.links{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 40px;
+    
 }
