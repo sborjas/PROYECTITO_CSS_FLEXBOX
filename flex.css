@@ -1,3 +1,7 @@
+* {
+    box-sizing: border-box;
+  }
+
 @media screen and (max-width: 700px) {
     .image {   
         flex-direction: column;
@@ -16,7 +20,6 @@
 
 .containerm{
     display: flex;
-
 }
 
 .containerm div{
@@ -25,19 +28,22 @@
 }
 
 .lside{
-    flex: 0.5;
+    width: 25%;
     font-family: 'Courier New', Courier, monospace;
+    padding: 10px;
 }
 
 .main{
-    flex: 2;
+    width: 50%;
     font-family: 'Courier New', Courier, monospace;
     text-align: center;
+    padding: 10px;
 }
 
 .rside{
-    flex: 0.5;
+    width: 25%;
     font-family: 'Courier New', Courier, monospace;
+    padding: 10px;
 
 }
 
@@ -48,20 +54,65 @@
 }
 /*COMIENZA LA SEGUNDA PARTE ===================================== */
 
-.containerm2{
-    display: flex;
 
-}
 .lside2{
-    flex: 10px;
+    width: 25%;
     border:2px #ccc solid;
     padding: 10px; 
+    font-family: 'Courier New', Courier, monospace;
 
 }
 
 .navbar{
-    flex: 66%;
+    display: flex;
+    flex-direction: column;
+    width: 75%;
     border:2px #ccc solid;
     padding: 10px;
+
+}
+
+.secciones-item1{
+    flex: 1;
+    font-family: 'Courier New', Courier, monospace;
+    border:2px #ccc solid;
+    padding: 10px;
+    background-color: coral;
+
+}
+
+.secciones-item2{
+    flex: 1;
+    font-family: 'Courier New', Courier, monospace;
+    border:2px #ccc solid;
+    padding: 10px;
+    background-color: darkslategrey;
+
+}
+
+.secciones-item3{
+    flex: 1;
+    font-family: 'Courier New', Courier, monospace;
+    border:2px #ccc solid;
+    padding: 10px;
+    background-color: goldenrod;
+
+}
+
+.secciones-item4{
+    flex: 1;
+    font-family: 'Courier New', Courier, monospace;
+    border:2px #ccc solid;
+    padding: 10px;
+    background-color: aquamarine;
+
+}
+
+.secciones-item5{
+    flex: 1;
+    font-family: 'Courier New', Courier, monospace;
+    border:2px #ccc solid;
+    padding: 10px;
+    background-color: crimson;
 
 }
